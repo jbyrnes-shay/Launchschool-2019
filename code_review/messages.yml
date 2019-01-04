@@ -1,0 +1,44 @@
+error:
+  name: 'PLEASE ENTER AN ALPHABETICAL STRING'
+  amount:
+    line1: 'PLEASE ENTER A POSITIVE INTEGER OR FLOAT'
+    line2: "WITH OR WITHOUT '$', AND"
+    line3: 'WITH CORRECT COMMA SEPARATION (FOR THOUSANDS)'
+    line4: 'OR WITH NO COMMA SEPARATION'
+  apr:
+    line1: 'PLEASE ENTER A POSITIVE INTEGER OR FLOAT'
+    line2: "WITH OR WITHOUT '%'"
+  duration: 'PLEASE ENTER A POSITIVE INTEGER (WHOLE MONTHS)'
+
+help:
+  instruction: "['h' for help]"
+  amount:
+    line1: 'EXAMPLE- 15000, or $15000, or 15000.00, or $15000.59'
+    line2: 'EXAMPLE- $45,253,243.45 or 10,411'
+  apr: 'EXAMPLE: 11.9%, or 10.95, or 15'
+  duration: 'EXAMPLE: 36, or 48'
+
+input:
+  name: 'Please tell me your name'
+  amount: 'Enter a loan amount'
+  apr: 'Enter an APR amount'
+  duration: 'Enter loan duration in months'
+
+summary:
+  amount: "Loan Amount : %{amount}"
+  apr: "Your APR is : %{apr}"
+  duration: "Duration is : %{duration} months"
+  result: 'YOUR MONTHLY PAYMENT'
+
+welcome: "Welcome to Mortgage Loan Calculator!"
+
+play_again: 
+  question: "Do you want to make another calculation? ('y' for yes, 'n' for no)"
+  answer_invalid: "Sorry.  You must answer 'y' or 'n'"
+
+goodbye: "Goodbye %{name}.  Thank you for calculating!"
+
+
+
+
+
